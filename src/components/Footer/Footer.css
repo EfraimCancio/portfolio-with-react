@@ -22,3 +22,14 @@
     display: flex;
     gap: 2rem;
 }
+
+.f-icons img {
+    color: white;
+    size: 3rem;
+}
+
+@media  screen and (max-width: 480px) {
+    .f-content {
+        transform: scale(0.5);
+    }
+}
